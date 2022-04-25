@@ -4,14 +4,15 @@
 .App {
     margin: 0;
     padding: 0;
-    height: min(100vh, 100%);
-    width: min(100vw, 100%);
+    height: 100vh;
+    min-height: fit-content;
+    width: 100vw;
     font-family: $fontFamilyInter;
 
     main {
-        height: min(100%, 100vh);
+        height: 92vh;
         min-height: fit-content;
-        width: 100vw;
+        width: 100%;
     }
 }
 
