@@ -1,7 +1,8 @@
 import React from 'react';
+import './Services.scss';
 
 function Services() {
-    return <div>Usługi</div>;
+    return <section className="services">Usługi</section>;
 }
 
 export default Services;
