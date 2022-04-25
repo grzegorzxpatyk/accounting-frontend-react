@@ -1,10 +1,15 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import './Footer.scss';
 
 function Footer() {
     return (
         <footer>
-            <span>Madar &copy; 2022</span>
+            <div>
+                <Fade cascade bottom>
+                    Madar &copy; 2022
+                </Fade>
+            </div>
         </footer>
     );
 }
