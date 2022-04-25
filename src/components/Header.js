@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
+import { Fade } from 'react-reveal';
 import './Header.scss';
 
 function Header() {
@@ -8,9 +9,11 @@ function Header() {
         <header>
             <Logo title="madar sc" />
             <nav>
-                <Link to="/">Strona główna</Link>
-                <Link to="/uslugi">Usługi</Link>
-                <Link to="/kontakt">Kontakt</Link>
+                <Fade>
+                    <Link to="/">Strona główna</Link>
+                    <Link to="/uslugi">Usługi</Link>
+                    <Link to="/kontakt">Kontakt</Link>
+                </Fade>
             </nav>
         </header>
     );
