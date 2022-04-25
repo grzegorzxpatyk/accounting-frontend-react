@@ -5,10 +5,22 @@
     margin: 0;
     padding: 0;
     height: min(100vh, 100%);
+    width: min(100vw, 100%);
     font-family: $fontFamilyInter;
+
+    main {
+        height: min(100%, 100vh);
+        min-height: fit-content;
+        width: 100vw;
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-family: $fontFamilyPlayfairDisplay;
 }
 
 h1 {
-    font-family: $fontFamilyPlayfairDisplay;
     font-weight: 600;
 }
