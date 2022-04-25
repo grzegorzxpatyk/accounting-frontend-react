@@ -9,6 +9,7 @@ function Header() {
             <Logo title="madar sc" />
             <nav>
                 <Link to="/">Strona główna</Link>
+                <Link to="/uslugi">Usługi</Link>
                 <Link to="/kontakt">Kontakt</Link>
             </nav>
         </header>
