@@ -6,7 +6,7 @@ function Home() {
     return (
         <section className="landingPage">
             <Fade left>
-                <h1>Biuro rachunkowe madar sc</h1>
+                <h1>Biuro rachunkowe MADAR</h1>
             </Fade>
         </section>
     );

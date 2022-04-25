@@ -6,9 +6,7 @@ function Footer() {
     return (
         <footer>
             <div>
-                <Fade cascade bottom>
-                    Madar &copy; 2022
-                </Fade>
+                <Fade>Madar &copy; 2022</Fade>
             </div>
         </footer>
     );

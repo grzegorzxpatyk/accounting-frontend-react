@@ -5,7 +5,9 @@ import './Logo.scss';
 function Logo({ title }) {
     return (
         <h1 className="logoBrand">
-            <Fade top>{title}</Fade>
+            <Fade top cascade>
+                {title}
+            </Fade>
         </h1>
     );
 }
