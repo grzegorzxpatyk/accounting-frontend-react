@@ -6,10 +6,10 @@ footer {
     width: 100%;
     font-size: 0.8rem;
     font-family: $fontFamilyInter;
-    span {
-        display: block;
-        width: 200px;
-        height: 20px;
-        margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    div {
+        color: $midtoneGray;
     }
 }
