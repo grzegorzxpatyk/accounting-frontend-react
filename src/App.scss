@@ -1,6 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
 @import './scss/_variables';
 
+html,
+body {
+    overflow: hidden;
+}
+
 .App {
     margin: 0;
     padding: 0;
