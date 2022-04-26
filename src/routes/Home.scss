@@ -3,9 +3,36 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 10%;
     h1 {
         font-size: min(8rem, 14vw);
         width: 50%;
+        white-space: normal;
+        min-width: min-content;
+        margin-right: 5rem;
+    }
+    img {
+        height: min(60vh, 35vw);
+        width: 25vw;
+        object-fit: cover;
+        object-position: 0;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .landingPage {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        h1 {
+            margin: 0;
+        }
+        img {
+            max-height: 200px;
+            height: auto;
+            width: 80vw;
+            object-fit: cover;
+        }
     }
 }
