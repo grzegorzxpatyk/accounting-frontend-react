@@ -2,6 +2,21 @@
     height: 100%;
     width: 100%;
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 0 10%;
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 0.5rem;
+    }
+
+    ul {
+        list-style: square;
+        padding: 0;
+        max-width: 50%;
+    }
 }
