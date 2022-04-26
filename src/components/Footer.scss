@@ -1,4 +1,4 @@
-@import '../scss/variables';
+@import '../scss/_variables.scss';
 
 footer {
     height: 4vh;
@@ -10,6 +10,6 @@ footer {
     flex-flow: row nowrap;
     justify-content: center;
     div {
-        color: $midtoneGray;
+        color: $lightGray;
     }
 }
