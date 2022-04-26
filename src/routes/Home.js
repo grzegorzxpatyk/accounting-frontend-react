@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.scss';
 import { Fade } from 'react-reveal';
-import shakingHands from '../assets/shakingHands.jpg';
+import calculator from '../assets/calculator.jpg';
 
 function Home() {
     return (
@@ -10,7 +10,7 @@ function Home() {
                 <h1>Biuro rachunkowe MADAR</h1>
             </Fade>
             <Fade top>
-                <img src={shakingHands} alt="" />
+                <img src={calculator} alt="" />
             </Fade>
         </section>
     );
