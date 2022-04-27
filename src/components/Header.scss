@@ -20,11 +20,23 @@ header {
 
         a {
             text-decoration: none;
-            margin: 0 1rem;
+            margin: 0 min(1vw, 1rem);
             color: $midtoneGray;
             transition: color 0.1s ease-in;
             min-width: fit-content;
             white-space: nowrap;
         }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header nav .react-reveal:first-of-type {
+        display: none;
+    }
+    header nav a {
+        margin: 0 0.5rem;
+    }
+    header nav .react-reveal:last-of-type a {
+        margin: 0 0 0 0.5rem;
     }
 }
