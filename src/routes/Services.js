@@ -7,10 +7,10 @@ function Services() {
             <h2>Usługi</h2>
             <div>
                 <section>
-                    <p>
-                        W naszej ofercie znajdziecie państwo wiele usług.
-                        Jednymi z nich są:
-                    </p>
+                    <h4>
+                        W naszej ofercie znajdziecie państwo wiele usług. Między
+                        innymi:
+                    </h4>
                     <ul>
                         <li>
                             prowadzenie podatkowych ksiąg przychodów i rozchodów

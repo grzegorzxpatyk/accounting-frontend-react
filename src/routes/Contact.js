@@ -9,7 +9,10 @@ function Contact() {
                 <h2>Kontakt</h2>
                 <div className="w-100 d-flex justify-content-between flex-column flex-md-row">
                     <div>
-                        <h3>Biuro Rachunkowe "Madar" Spółka Cywilna</h3>
+                        <h3>
+                            Biuro Rachunkowe Madar s.c. Małgorzata Konieczna
+                            Teresa Wrzesień
+                        </h3>
                         <p>ul. Racławicka 23, 32-200 Miechów</p>
                         <p>Telefon: 41 383 23 89</p>
                     </div>
