@@ -1,5 +1,6 @@
 .services {
     height: 100%;
+    min-height: min-content;
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -18,5 +19,21 @@
         list-style: square;
         padding: 0;
         max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services {
+        padding: 10% 10% 0;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .services {
+        overflow-y: scroll;
+        ul {
+            max-width: 100%;
+        }
     }
 }
