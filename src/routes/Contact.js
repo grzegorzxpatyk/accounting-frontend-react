@@ -13,7 +13,15 @@ function Contact() {
                             Biuro Rachunkowe Madar s.c. Małgorzata Konieczna
                             Teresa Wrzesień
                         </h3>
-                        <p>ul. Racławicka 23, 32-200 Miechów</p>
+                        <p>
+                            <a
+                                href="https://goo.gl/maps/kZmSYU5UPZR6jS2B9"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                ul. Racławicka 23, 32-200 Miechów
+                            </a>
+                        </p>
                         <p>Telefon: 41 383 23 89</p>
                     </div>
                     <aside>
