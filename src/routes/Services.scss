@@ -7,6 +7,12 @@
     justify-content: center;
     align-items: flex-start;
     padding: 0 10%;
+
+    section {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
     h2 {
         margin-bottom: 1rem;
     }
@@ -20,6 +26,13 @@
         padding: 0;
         max-width: 50%;
     }
+
+    img {
+        height: min(60vh, 35vw);
+        // width: 25vw;
+        object-fit: cover;
+        object-position: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -32,8 +45,18 @@
 @media screen and (max-width: 1080px) {
     .services {
         overflow-y: scroll;
+        section {
+            display: flex;
+            flex-flow: column nowrap;
+        }
         ul {
             max-width: 100%;
+        }
+        img {
+            max-height: 200px;
+            height: auto;
+            width: 80vw;
+            object-fit: cover;
         }
     }
 }
