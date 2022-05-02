@@ -36,3 +36,25 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .landingPage {
+        justify-content: end;
+        align-items: end;
+        h1 {
+            padding-bottom: 5vh;
+            text-align: right;
+        }
+        img {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: -100;
+            height: 100vh;
+            max-height: none;
+            width: 100%;
+            object-fit: cover;
+            object-position: 85%;
+        }
+    }
+}
