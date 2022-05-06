@@ -14,6 +14,8 @@
     main {
         height: 88vh;
         width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 }
 
