@@ -22,9 +22,15 @@ header {
             text-decoration: none;
             margin: 0 min(1vw, 1rem);
             color: $midtoneGray;
-            transition: color 0.1s ease-in;
+            transition: all 0.1s ease-in;
             min-width: fit-content;
             white-space: nowrap;
+            &:hover,
+            &:active {
+                color: $darkGray;
+                text-decoration: line-through;
+                text-decoration-color: $accentColor;
+            }
         }
     }
 }
