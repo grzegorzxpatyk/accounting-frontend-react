@@ -7,7 +7,7 @@ import './Header.scss';
 function Header() {
     return (
         <header>
-            <Logo title="madar s.c." />
+            <Logo title="MADAR" />
             <nav>
                 <Fade>
                     <Link to="/">Strona główna</Link>
