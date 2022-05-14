@@ -11,6 +11,7 @@ function Home() {
             </Fade>
             <Fade top>
                 <img src={calculator} alt="" />
+                <div className="overlay"></div>
             </Fade>
         </section>
     );
