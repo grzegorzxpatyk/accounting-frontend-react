@@ -21,14 +21,14 @@ header {
         a {
             text-decoration: none;
             margin: 0 min(1vw, 1rem);
-            color: $midtoneGray;
+            color: $darkGray;
             transition: all 0.1s ease-in;
             white-space: nowrap;
             &:hover,
             &:active {
-                color: $darkGray;
+                color: $midtoneGray;
                 text-decoration: line-through;
-                text-decoration-color: $accentColor;
+                text-decoration-color: $lightGray;
             }
         }
     }
