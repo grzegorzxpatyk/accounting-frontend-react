@@ -4,10 +4,10 @@
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 5vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 5vw 15vh;
     h1 {
         font-size: min(8rem, 14vw);
         width: 50%;
@@ -37,15 +37,34 @@
             45deg,
             $overlayWhite,
             $overlayWhite,
-            #ffffff00,
+            $overlayWhite,
             $overlayWhite
         );
         z-index: -50;
+    }
+    aside {
+        padding: 0 0 0 10%;
+        text-align: right;
+        font-family: $fontFamilyPlayfairDisplay;
+        p:first-of-type {
+            font-size: 1.6rem;
+        }
+        a {
+            margin-top: 1rem;
+            font-family: $fontFamilyInter;
+            color: $darkGray;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
     }
 }
 
 @media screen and (max-width: 1080px) {
     .landingPage {
+        padding: 0 5vw;
+        aside {
+            display: none;
+        }
         h1 {
             margin: 0;
         }
@@ -54,7 +73,6 @@
 
 @media screen and (max-width: 768px) {
     .landingPage {
-        justify-content: flex-end;
         h1 {
             padding-bottom: 5vh;
         }
