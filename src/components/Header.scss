@@ -27,9 +27,9 @@ header {
             white-space: nowrap;
             &:hover,
             &:active {
-                color: $midtoneGray;
-                text-decoration: line-through;
-                text-decoration-color: $lightGray;
+                color: $darkGray;
+                text-decoration: underline;
+                text-decoration-color: $midtoneGray;
             }
         }
     }
