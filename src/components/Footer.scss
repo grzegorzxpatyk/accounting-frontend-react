@@ -1,7 +1,7 @@
 @import '../scss/_variables.scss';
 
 footer {
-    height: 4vh;
+    height: 6vh;
     min-height: fit-content;
     width: 100%;
     font-size: 0.8rem;
@@ -9,7 +9,8 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    border-top: 1px solid $midtoneGray;
     div {
-        color: $lightGray;
+        color: $midtoneGray;
     }
 }

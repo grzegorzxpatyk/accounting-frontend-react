@@ -12,10 +12,11 @@
     color: $darkGray;
 
     main {
-        height: 88vh;
+        height: 86vh;
         width: 100%;
         overflow-y: auto;
         overflow-x: hidden;
+        padding-bottom: 2vh;
     }
 }
 
