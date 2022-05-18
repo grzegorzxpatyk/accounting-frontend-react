@@ -12,12 +12,24 @@ header {
     border-bottom: 1px solid $darkGray;
 
     nav {
-        width: 15%;
+        // width: 15%;
         min-width: fit-content;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
+
+        #toggler,
+        label[for='toggler'] {
+            display: none;
+        }
+
+        ul {
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+        }
 
         a {
             text-decoration: none;
