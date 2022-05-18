@@ -9,11 +9,21 @@ function Header() {
         <header>
             <Logo title="MADAR" />
             <nav>
-                <Fade>
-                    <Link to="/">Strona główna</Link>
-                    <Link to="/uslugi">Usługi</Link>
-                    <Link to="/kontakt">Kontakt</Link>
-                </Fade>
+                <input type="checkbox" id="toggler" />
+                <label htmlFor="toggler">MENU</label>
+                <ul>
+                    <Fade>
+                        <li>
+                            <Link to="/">Strona główna</Link>
+                        </li>
+                        <li>
+                            <Link to="/uslugi">Usługi</Link>
+                        </li>
+                        <li>
+                            <Link to="/kontakt">Kontakt</Link>
+                        </li>
+                    </Fade>
+                </ul>
             </nav>
         </header>
     );
