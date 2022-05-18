@@ -58,7 +58,6 @@ header {
 
         #toggler:checked ~ ul {
             display: flex;
-
             flex-direction: column;
             justify-content: flex-end;
             align-items: flex-end;
@@ -66,6 +65,7 @@ header {
             top: 8vh;
             right: 0;
             padding: 1vh 5vw 0;
+            z-index: 500;
 
             a {
                 margin: 0;
