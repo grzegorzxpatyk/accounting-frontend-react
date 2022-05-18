@@ -6,14 +6,12 @@ header {
     width: 100%;
     padding: 0.6rem 5vw;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid $darkGray;
 
     nav {
-        // width: 15%;
-        min-width: fit-content;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -47,14 +45,31 @@ header {
     }
 }
 
-@media screen and (max-width: 480px) {
-    header nav .react-reveal:first-of-type {
-        display: none;
-    }
-    header nav a {
-        margin: 0 0.5rem;
-    }
-    header nav .react-reveal:last-of-type a {
-        margin: 0 0 0 0.5rem;
+@media screen and (max-width: 768px) {
+    header nav {
+        ul {
+            display: none;
+        }
+        label[for='toggler'] {
+            width: 100%;
+            display: inline-flex;
+            cursor: pointer;
+        }
+
+        #toggler:checked ~ ul {
+            display: flex;
+
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            position: fixed;
+            top: 8vh;
+            right: 0;
+            padding: 1vh 5vw 0;
+
+            a {
+                margin: 0;
+            }
+        }
     }
 }
