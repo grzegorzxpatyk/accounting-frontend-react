@@ -27,8 +27,8 @@ function Header() {
                     onClick={handleNavLinkClick}
                 />
                 <label htmlFor="toggler">MENU</label>
-                <ul>
-                    <Fade>
+                <Fade>
+                    <ul>
                         <li>
                             <Link to="/" onClick={handleNavLinkClick}>
                                 Strona główna
@@ -44,8 +44,8 @@ function Header() {
                                 Kontakt
                             </Link>
                         </li>
-                    </Fade>
-                </ul>
+                    </ul>
+                </Fade>
             </nav>
         </header>
     );
