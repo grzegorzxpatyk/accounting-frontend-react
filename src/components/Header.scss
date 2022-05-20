@@ -62,10 +62,13 @@ header {
             justify-content: flex-end;
             align-items: flex-end;
             position: fixed;
+            width: 100%;
             top: 8vh;
             right: 0;
-            padding: 3vh 5vw 0;
+            padding: 2vh 5vw;
             gap: 2vh;
+            background: white;
+            border-bottom: 1px solid $midtoneGray;
             z-index: 500;
 
             a {
