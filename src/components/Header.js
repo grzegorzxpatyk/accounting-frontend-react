@@ -18,7 +18,7 @@ function Header() {
 
     return (
         <header>
-            <Logo title="MADAR" />
+            <Logo title="MADAR" onClick={handleNavLinkClick} />
             <nav>
                 <input
                     type="checkbox"
