@@ -15,6 +15,22 @@ root.render(
                 <Route index element={<Home />} />
                 <Route path="uslugi" element={<Services />} />
                 <Route path="kontakt" element={<Contact />} />
+                <Route
+                    path="*"
+                    element={
+                        <main
+                            style={{
+                                height: '100%',
+                                width: '100%',
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                            }}
+                        >
+                            <p>Nie znaleziono podanej strony.</p>
+                        </main>
+                    }
+                />
             </Route>
         </Routes>
     </BrowserRouter>
