@@ -8,10 +8,10 @@ import { useState } from 'react';
 function Header() {
     const [isMenuVisible, setMenuVisible] = useState(false);
 
-    function handleNavLinkClick() {
+    function handleNavLinkClick(e) {
         if (isMenuVisible) {
             setMenuVisible(false);
-        } else {
+        } else if (!isMenuVisible && e.target.nodeName !== 'SPAN') {
             setMenuVisible(true);
         }
     }
@@ -24,7 +24,7 @@ function Header() {
                     type="checkbox"
                     id="toggler"
                     checked={isMenuVisible}
-                    onClick={handleNavLinkClick}
+                    onChange={handleNavLinkClick}
                 />
                 <label htmlFor="toggler">MENU</label>
                 <Fade>
